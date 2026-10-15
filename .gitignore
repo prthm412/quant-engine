@@ -1,0 +1,61 @@
+# CMake and build outputs
+/build/
+/build-*/
+/cmake-build-*/
+CMakeUserPresets.json
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+
+# Compiled binaries and libraries
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.exe
+*.out
+
+# Debugging and profiling
+core
+core.*
+*.profraw
+*.profdata
+*.gcda
+*.gcno
+callgrind.out.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# IDE and editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Local datasets and generated runs
+/data/raw/
+/data/generated/
+/runs/
+
+# Local benchmark outputs
+/bench/results/*
+!/bench/results/.gitkeep
+!/bench/results/published/
+!/bench/results/published/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
